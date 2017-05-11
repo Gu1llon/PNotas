@@ -1,3 +1,43 @@
 <h1>
   {{title}}
 </h1>
+<div container text-center>
+<div class="row center-block">
+  <div class="col-xs-1">
+    <label>Notas</label>
+    <input type="number" class="form-control" placeholder="Nota 1" [(ngModel)]="nota1">
+    <input type="number" class="form-control" placeholder="Nota 2" [(ngModel)]="nota2">
+    <input type="number" class="form-control" placeholder="Nota 3" [(ngModel)]="nota3">
+    <input type="number" class="form-control" placeholder="Nota 4" [(ngModel)]="nota4">
+    <input type="number" class="form-control" placeholder="Nota 5" [(ngModel)]="nota5">
+    <div class="col-xs-1">
+    <label>Total Notas: {{nota1+nota2+nota3+nota4+nota5}}</label>
+    </div>
+  </div>
+  <div class="col-xs-1">
+    <label>porcentaje</label>
+    <input type="number" class="form-control" placeholder="Porcentaje 1" [(ngModel)]="porce1">
+    <input type="number" class="form-control" placeholder="Porcentaje 2" [(ngModel)]="porce2">
+    <input type="number" class="form-control" placeholder="Porcentaje 3" [(ngModel)]="porce3">
+    <input type="number" class="form-control" placeholder="Porcentaje 4" [(ngModel)]="porce4">
+    <input type="number" class="form-control" placeholder="Porcentaje 5" [(ngModel)]="porce5">
+      <div class="col-xs-1">
+        <label>Total Porcentaje: {{porce1+porce2+porce3+porce4+porce5}}</label>
+      </div>
+  </div>
+  <div class="col-xs-1">
+    
+  </div>
+  <div class="col-xs-1">
+    
+  </div>
+  <div class="col-xs-1">
+    
+  </div>
+  
+  </div>
+</div>
+
+<!--<div class="col-xs-3">
+<p class="bg-danger">vas a morir</p>
+</div>-->

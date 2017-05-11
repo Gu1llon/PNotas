@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+h1{
+    font-family: 'Exo 2', sans-serif;
+}
+
+/*font-family: 'Dancing Script', cursive;*/
+.row{
+    text-align: center;
+}
+body{
+    text-align: center;
+}
